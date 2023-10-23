@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+img {
+  display: block;
+  height: 20%;
+  width: 100%;
+  object-fit: fill;
+}
+
+p {
+  margin: 0;
+}
+
+.center-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  color: white;
+}
+
+p:first-child {
+  height: 60vh;
+  width: 50%;
+  background-color: #836dc0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p:last-child {
+  height: 60vh;
+  width: 50%;
+  background-color: #94c9d2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
